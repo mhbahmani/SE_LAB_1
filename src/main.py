@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import render_template
+from flask import render_template, redirect
 
 
 app = Flask(__name__)
@@ -11,4 +11,4 @@ def health():
 
 @app.route('/register', methods=["POST"])
 def register():
-    return "<p>Registeration completed</p>"
+    return redirect("/health")
