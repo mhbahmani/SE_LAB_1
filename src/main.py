@@ -8,7 +8,6 @@ app = Flask(__name__)
 def health():
     return 200
 
-
 @app.route('/register', methods=["POST"])
 def register():
     return redirect("/health")
