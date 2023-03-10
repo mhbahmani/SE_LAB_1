@@ -1,6 +1,5 @@
 # SE_LAB_1
-=======
-# SE_LAB_1
+
 ## Team members
 * MohammadHosein Bahmani
 * Ali Shirmohammadi
